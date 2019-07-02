@@ -1,0 +1,7 @@
+.row{
+    color: red;
+}
+
+div[app-success]{
+    background-color: blueviolet;
+}

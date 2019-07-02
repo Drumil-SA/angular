@@ -1,0 +1,10 @@
+<!-- <h3>This is app-server</h3>
+<p>{{'Server'}} with ID {{ serverId }} is  {{ getServerStatus() }} </p> -->
+
+
+<input type="text" [(ngModel)]="Username">
+<p>{{Username}}</p>
+
+<button [disabled]="Username === ''"
+(click)='Username = ""'>
+Reset User</button>
