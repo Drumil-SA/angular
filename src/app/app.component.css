@@ -1,7 +1,6 @@
-.row{
-    color: red;
+h1{
+    color: coral;
 }
-
 div[app-success]{
     background-color: blueviolet;
 }

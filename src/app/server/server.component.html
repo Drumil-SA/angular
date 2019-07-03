@@ -1,10 +1,22 @@
 <!-- <h3>This is app-server</h3>
 <p>{{'Server'}} with ID {{ serverId }} is  {{ getServerStatus() }} </p> -->
 
-
+<h1>String Interpolation</h1>
 <input type="text" [(ngModel)]="Username">
 <p>{{Username}}</p>
 
 <button [disabled]="Username === ''"
 (click)='Username = ""'>
 Reset User</button>
+<hr/>
+
+<h1>Practice</h1>
+Username : {{username}} <input type="text" [(ngModel)]="username">
+<p>{{username}}</p>
+
+<button class="btn btn-primary" [disabled]=" username === '' " (click)="username = ''">reset name</button>
+
+<p *ngIf = "username===''; else haha">hoho</p>
+<ng-template #haha><p>haha</p></ng-template>
+
+<hr>

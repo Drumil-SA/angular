@@ -11,6 +11,7 @@ export class ServerComponent{
     serverStatus: string = "offline";
     isDisable = true;
     Username="";
+    username = "";
     getServerStatus(){
         return this.serverStatus;
     }
